@@ -30,7 +30,7 @@ struct iMensaApp: App {
       dateComponents.hour = 14
     }
 
-    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
 
     let content = UNMutableNotificationContent()
     content.title = "iMensa"

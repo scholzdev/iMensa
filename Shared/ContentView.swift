@@ -11,7 +11,7 @@ import UserNotifications
 
 struct ContentView: View {
 
-  @StateObject var viewModel = ViewModel()
+  @EnvironmentObject private var viewModel: MensaDataViewModel
   @State private var toggleSettings = false
 
   var body: some View {
@@ -48,6 +48,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      ContentView()
     }
 }

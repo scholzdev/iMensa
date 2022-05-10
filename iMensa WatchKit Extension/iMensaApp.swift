@@ -9,13 +9,14 @@ import SwiftUI
 
 @main
 struct iMensaApp: App {
-    @SceneBuilder var body: some Scene {
-        WindowGroup {
-            NavigationView {
-                ContentView()
-            }
-        }
-
-        WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+  @SceneBuilder var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        ContentView()
+          .environmentObject(MensaDataViewModel(dataService: MensaDataService.shared))
+      }
     }
+
+    WKNotificationScene(controller: NotificationController.self, category: "myCategory")
+  }
 }

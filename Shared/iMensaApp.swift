@@ -54,19 +54,19 @@ struct iMensaApp: App {
   }
 
   var body: some Scene {
-      WindowGroup {
-          ContentView()
-          .onAppear {
-            UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {success, error in
-              if success {
-                enableNotifications = true
-              } else if let error = error {
-                print(error.localizedDescription)
-              }
-            })
-            fireNotifications()
+    WindowGroup {
+      ContentView()
+      .onAppear {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound], completionHandler: {success, error in
+          if success {
+            enableNotifications = true
+          } else if let error = error {
+            print(error.localizedDescription)
           }
-          .environmentObject(MensaDataViewModel(dataService: MensaDataService.shared))
+        })
+        fireNotifications()
       }
+      .environmentObject(MensaDataViewModel(dataService: MensaDataService.shared))
     }
+  }
 }

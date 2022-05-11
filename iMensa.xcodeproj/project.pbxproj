@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A454B1C282B9ACA00F794BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A454B1B282B9ACA00F794BB /* Assets.xcassets */; };
+		8A454B22282B9ACA00F794BB /* Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A454B21282B9ACA00F794BB /* Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A454B27282B9ACA00F794BB /* iMensaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B26282B9ACA00F794BB /* iMensaApp.swift */; };
+		8A454B29282B9ACA00F794BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B28282B9ACA00F794BB /* ContentView.swift */; };
+		8A454B2B282B9ACA00F794BB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B2A282B9ACA00F794BB /* NotificationController.swift */; };
+		8A454B2D282B9ACA00F794BB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B2C282B9ACA00F794BB /* NotificationView.swift */; };
+		8A454B2F282B9ACA00F794BB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B2E282B9ACA00F794BB /* ComplicationController.swift */; };
+		8A454B31282B9ACA00F794BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A454B30282B9ACA00F794BB /* Assets.xcassets */; };
+		8A454B34282B9ACA00F794BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A454B33282B9ACA00F794BB /* Preview Assets.xcassets */; };
+		8A454B40282B9ACA00F794BB /* WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B3F282B9ACA00F794BB /* WatchTests.swift */; };
+		8A454B4A282B9ACA00F794BB /* WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B49282B9ACA00F794BB /* WatchUITests.swift */; };
+		8A454B4C282B9ACA00F794BB /* WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A454B4B282B9ACA00F794BB /* WatchUITestsLaunchTests.swift */; };
+		8A454B4F282B9ACA00F794BB /* iMensa.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A454B19282B9AC900F794BB /* iMensa.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A454B61282B9B6800F794BB /* MensaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB45062821739800E29425 /* MensaViewModel.swift */; };
+		8A454B62282B9B7200F794BB /* MealDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB450928217CE200E29425 /* MealDataView.swift */; };
 		8A99119C282291520030B0BD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99119B282291520030B0BD /* SettingsView.swift */; };
 		8A99119D282291520030B0BD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99119B282291520030B0BD /* SettingsView.swift */; };
 		8ADB44E32821469C00E29425 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB44E22821469C00E29425 /* Tests_iOS.swift */; };
@@ -19,13 +34,41 @@
 		8ADB44F52821469C00E29425 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB44CB2821469A00E29425 /* ContentView.swift */; };
 		8ADB44F62821469C00E29425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB44CC2821469C00E29425 /* Assets.xcassets */; };
 		8ADB44F72821469C00E29425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADB44CC2821469C00E29425 /* Assets.xcassets */; };
-		8ADB45072821739800E29425 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB45062821739800E29425 /* ViewModel.swift */; };
-		8ADB45082821739800E29425 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB45062821739800E29425 /* ViewModel.swift */; };
-		8ADB450A28217CE200E29425 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB450928217CE200E29425 /* SwiftUIView.swift */; };
-		8ADB450B28217CE200E29425 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB450928217CE200E29425 /* SwiftUIView.swift */; };
+		8ADB45072821739800E29425 /* MensaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB45062821739800E29425 /* MensaViewModel.swift */; };
+		8ADB45082821739800E29425 /* MensaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB45062821739800E29425 /* MensaViewModel.swift */; };
+		8ADB450A28217CE200E29425 /* MealDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB450928217CE200E29425 /* MealDataView.swift */; };
+		8ADB450B28217CE200E29425 /* MealDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADB450928217CE200E29425 /* MealDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8A454B23282B9ACA00F794BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADB44C52821469A00E29425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A454B20282B9ACA00F794BB;
+			remoteInfo = "Watch WatchKit Extension";
+		};
+		8A454B3C282B9ACA00F794BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADB44C52821469A00E29425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A454B20282B9ACA00F794BB;
+			remoteInfo = "Watch WatchKit Extension";
+		};
+		8A454B46282B9ACA00F794BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADB44C52821469A00E29425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A454B18282B9AC900F794BB;
+			remoteInfo = Watch;
+		};
+		8A454B4D282B9ACA00F794BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ADB44C52821469A00E29425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A454B18282B9AC900F794BB;
+			remoteInfo = Watch;
+		};
 		8ADB44DF2821469C00E29425 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8ADB44C52821469A00E29425 /* Project object */;
@@ -42,7 +85,49 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A454B53282B9ACA00F794BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8A454B22282B9ACA00F794BB /* Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B57282B9ACA00F794BB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8A454B4F282B9ACA00F794BB /* iMensa.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8A454B19282B9AC900F794BB /* iMensa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMensa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A454B1B282B9ACA00F794BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A454B21282B9ACA00F794BB /* Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A454B26282B9ACA00F794BB /* iMensaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMensaApp.swift; sourceTree = "<group>"; };
+		8A454B28282B9ACA00F794BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A454B2A282B9ACA00F794BB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8A454B2C282B9ACA00F794BB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		8A454B2E282B9ACA00F794BB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8A454B30282B9ACA00F794BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A454B33282B9ACA00F794BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A454B35282B9ACA00F794BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A454B36282B9ACA00F794BB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8A454B3B282B9ACA00F794BB /* WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A454B3F282B9ACA00F794BB /* WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTests.swift; sourceTree = "<group>"; };
+		8A454B45282B9ACA00F794BB /* WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A454B49282B9ACA00F794BB /* WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUITests.swift; sourceTree = "<group>"; };
+		8A454B4B282B9ACA00F794BB /* WatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A99119B282291520030B0BD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8ADB44CA2821469A00E29425 /* iMensaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMensaApp.swift; sourceTree = "<group>"; };
 		8ADB44CB2821469A00E29425 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,12 +141,33 @@
 		8ADB44EA2821469C00E29425 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADB44EE2821469C00E29425 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8ADB44F02821469C00E29425 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		8ADB45062821739800E29425 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		8ADB450928217CE200E29425 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8ADB45062821739800E29425 /* MensaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaViewModel.swift; sourceTree = "<group>"; };
+		8ADB450928217CE200E29425 /* MealDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataView.swift; sourceTree = "<group>"; };
 		8ADB450F2821997A00E29425 /* iMensa--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "iMensa--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A454B1E282B9ACA00F794BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B38282B9ACA00F794BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B42282B9ACA00F794BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADB44CE2821469C00E29425 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +199,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A454B1A282B9AC900F794BB /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				8A454B1B282B9ACA00F794BB /* Assets.xcassets */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		8A454B25282B9ACA00F794BB /* Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8A454B26282B9ACA00F794BB /* iMensaApp.swift */,
+				8A454B28282B9ACA00F794BB /* ContentView.swift */,
+				8A454B2A282B9ACA00F794BB /* NotificationController.swift */,
+				8A454B2C282B9ACA00F794BB /* NotificationView.swift */,
+				8A454B2E282B9ACA00F794BB /* ComplicationController.swift */,
+				8A454B30282B9ACA00F794BB /* Assets.xcassets */,
+				8A454B35282B9ACA00F794BB /* Info.plist */,
+				8A454B36282B9ACA00F794BB /* PushNotificationPayload.apns */,
+				8A454B32282B9ACA00F794BB /* Preview Content */,
+			);
+			path = "Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8A454B32282B9ACA00F794BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A454B33282B9ACA00F794BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A454B3E282B9ACA00F794BB /* WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A454B3F282B9ACA00F794BB /* WatchTests.swift */,
+			);
+			path = WatchTests;
+			sourceTree = "<group>";
+		};
+		8A454B48282B9ACA00F794BB /* WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A454B49282B9ACA00F794BB /* WatchUITests.swift */,
+				8A454B4B282B9ACA00F794BB /* WatchUITestsLaunchTests.swift */,
+			);
+			path = WatchUITests;
+			sourceTree = "<group>";
+		};
 		8ADB44C42821469A00E29425 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +256,10 @@
 				8ADB44D82821469C00E29425 /* macOS */,
 				8ADB44E12821469C00E29425 /* Tests iOS */,
 				8ADB44ED2821469C00E29425 /* Tests macOS */,
+				8A454B1A282B9AC900F794BB /* Watch */,
+				8A454B25282B9ACA00F794BB /* Watch WatchKit Extension */,
+				8A454B3E282B9ACA00F794BB /* WatchTests */,
+				8A454B48282B9ACA00F794BB /* WatchUITests */,
 				8ADB44D22821469C00E29425 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,8 +270,8 @@
 				8ADB44CA2821469A00E29425 /* iMensaApp.swift */,
 				8ADB44CB2821469A00E29425 /* ContentView.swift */,
 				8ADB44CC2821469C00E29425 /* Assets.xcassets */,
-				8ADB45062821739800E29425 /* ViewModel.swift */,
-				8ADB450928217CE200E29425 /* SwiftUIView.swift */,
+				8ADB45062821739800E29425 /* MensaViewModel.swift */,
+				8ADB450928217CE200E29425 /* MealDataView.swift */,
 				8A99119B282291520030B0BD /* SettingsView.swift */,
 			);
 			path = Shared;
@@ -125,6 +284,10 @@
 				8ADB44D72821469C00E29425 /* iMensa.app */,
 				8ADB44DE2821469C00E29425 /* Tests iOS.xctest */,
 				8ADB44EA2821469C00E29425 /* Tests macOS.xctest */,
+				8A454B19282B9AC900F794BB /* iMensa.app */,
+				8A454B21282B9ACA00F794BB /* Watch WatchKit Extension.appex */,
+				8A454B3B282B9ACA00F794BB /* WatchTests.xctest */,
+				8A454B45282B9ACA00F794BB /* WatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +321,76 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A454B18282B9AC900F794BB /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A454B54282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				8A454B17282B9AC900F794BB /* Resources */,
+				8A454B53282B9ACA00F794BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A454B24282B9ACA00F794BB /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 8A454B19282B9AC900F794BB /* iMensa.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8A454B20282B9ACA00F794BB /* Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A454B50282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "Watch WatchKit Extension" */;
+			buildPhases = (
+				8A454B1D282B9ACA00F794BB /* Sources */,
+				8A454B1E282B9ACA00F794BB /* Frameworks */,
+				8A454B1F282B9ACA00F794BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch WatchKit Extension";
+			productName = "Watch WatchKit Extension";
+			productReference = 8A454B21282B9ACA00F794BB /* Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8A454B3A282B9ACA00F794BB /* WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A454B58282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "WatchTests" */;
+			buildPhases = (
+				8A454B37282B9ACA00F794BB /* Sources */,
+				8A454B38282B9ACA00F794BB /* Frameworks */,
+				8A454B39282B9ACA00F794BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A454B3D282B9ACA00F794BB /* PBXTargetDependency */,
+			);
+			name = WatchTests;
+			productName = WatchTests;
+			productReference = 8A454B3B282B9ACA00F794BB /* WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A454B44282B9ACA00F794BB /* WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A454B5B282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "WatchUITests" */;
+			buildPhases = (
+				8A454B41282B9ACA00F794BB /* Sources */,
+				8A454B42282B9ACA00F794BB /* Frameworks */,
+				8A454B43282B9ACA00F794BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A454B47282B9ACA00F794BB /* PBXTargetDependency */,
+			);
+			name = WatchUITests;
+			productName = WatchUITests;
+			productReference = 8A454B45282B9ACA00F794BB /* WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		8ADB44D02821469C00E29425 /* iMensa (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8ADB44FA2821469C00E29425 /* Build configuration list for PBXNativeTarget "iMensa (iOS)" */;
@@ -165,10 +398,12 @@
 				8ADB44CD2821469C00E29425 /* Sources */,
 				8ADB44CE2821469C00E29425 /* Frameworks */,
 				8ADB44CF2821469C00E29425 /* Resources */,
+				8A454B57282B9ACA00F794BB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8A454B4E282B9ACA00F794BB /* PBXTargetDependency */,
 			);
 			name = "iMensa (iOS)";
 			productName = "iMensa (iOS)";
@@ -238,6 +473,20 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					8A454B18282B9AC900F794BB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8A454B20282B9ACA00F794BB = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					8A454B3A282B9ACA00F794BB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8A454B20282B9ACA00F794BB;
+					};
+					8A454B44282B9ACA00F794BB = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 8A454B18282B9AC900F794BB;
+					};
 					8ADB44D02821469C00E29425 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -271,11 +520,46 @@
 				8ADB44D62821469C00E29425 /* iMensa (macOS) */,
 				8ADB44DD2821469C00E29425 /* Tests iOS */,
 				8ADB44E92821469C00E29425 /* Tests macOS */,
+				8A454B18282B9AC900F794BB /* Watch */,
+				8A454B20282B9ACA00F794BB /* Watch WatchKit Extension */,
+				8A454B3A282B9ACA00F794BB /* WatchTests */,
+				8A454B44282B9ACA00F794BB /* WatchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A454B17282B9AC900F794BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A454B1C282B9ACA00F794BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B1F282B9ACA00F794BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A454B34282B9ACA00F794BB /* Preview Assets.xcassets in Resources */,
+				8A454B31282B9ACA00F794BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B39282B9ACA00F794BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B43282B9ACA00F794BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADB44CF2821469C00E29425 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,13 +593,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8A454B1D282B9ACA00F794BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A454B2B282B9ACA00F794BB /* NotificationController.swift in Sources */,
+				8A454B29282B9ACA00F794BB /* ContentView.swift in Sources */,
+				8A454B2F282B9ACA00F794BB /* ComplicationController.swift in Sources */,
+				8A454B27282B9ACA00F794BB /* iMensaApp.swift in Sources */,
+				8A454B2D282B9ACA00F794BB /* NotificationView.swift in Sources */,
+				8A454B61282B9B6800F794BB /* MensaViewModel.swift in Sources */,
+				8A454B62282B9B7200F794BB /* MealDataView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B37282B9ACA00F794BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A454B40282B9ACA00F794BB /* WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A454B41282B9ACA00F794BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A454B4C282B9ACA00F794BB /* WatchUITestsLaunchTests.swift in Sources */,
+				8A454B4A282B9ACA00F794BB /* WatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8ADB44CD2821469C00E29425 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8ADB44F42821469C00E29425 /* ContentView.swift in Sources */,
-				8ADB45072821739800E29425 /* ViewModel.swift in Sources */,
-				8ADB450A28217CE200E29425 /* SwiftUIView.swift in Sources */,
+				8ADB45072821739800E29425 /* MensaViewModel.swift in Sources */,
+				8ADB450A28217CE200E29425 /* MealDataView.swift in Sources */,
 				8A99119C282291520030B0BD /* SettingsView.swift in Sources */,
 				8ADB44F22821469C00E29425 /* iMensaApp.swift in Sources */,
 			);
@@ -326,8 +641,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8ADB44F52821469C00E29425 /* ContentView.swift in Sources */,
-				8ADB45082821739800E29425 /* ViewModel.swift in Sources */,
-				8ADB450B28217CE200E29425 /* SwiftUIView.swift in Sources */,
+				8ADB45082821739800E29425 /* MensaViewModel.swift in Sources */,
+				8ADB450B28217CE200E29425 /* MealDataView.swift in Sources */,
 				8A99119D282291520030B0BD /* SettingsView.swift in Sources */,
 				8ADB44F32821469C00E29425 /* iMensaApp.swift in Sources */,
 			);
@@ -354,6 +669,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8A454B24282B9ACA00F794BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A454B20282B9ACA00F794BB /* Watch WatchKit Extension */;
+			targetProxy = 8A454B23282B9ACA00F794BB /* PBXContainerItemProxy */;
+		};
+		8A454B3D282B9ACA00F794BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A454B20282B9ACA00F794BB /* Watch WatchKit Extension */;
+			targetProxy = 8A454B3C282B9ACA00F794BB /* PBXContainerItemProxy */;
+		};
+		8A454B47282B9ACA00F794BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A454B18282B9AC900F794BB /* Watch */;
+			targetProxy = 8A454B46282B9ACA00F794BB /* PBXContainerItemProxy */;
+		};
+		8A454B4E282B9ACA00F794BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A454B18282B9AC900F794BB /* Watch */;
+			targetProxy = 8A454B4D282B9ACA00F794BB /* PBXContainerItemProxy */;
+		};
 		8ADB44E02821469C00E29425 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8ADB44D02821469C00E29425 /* iMensa (iOS) */;
@@ -367,6 +702,202 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8A454B51282B9ACA00F794BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8A454B52282B9ACA00F794BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8A454B55282B9ACA00F794BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Watch_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.scholzf.iMensa;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.watchkitapp;
+				PRODUCT_NAME = iMensa;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8A454B56282B9ACA00F794BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Watch_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = de.scholzf.iMensa;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.watchkitapp;
+				PRODUCT_NAME = iMensa;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8A454B59282B9ACA00F794BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.WatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch WatchKit Extension.appex/Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8A454B5A282B9ACA00F794BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.WatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Watch WatchKit Extension.appex/Watch WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8A454B5C282B9ACA00F794BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.WatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Watch;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8A454B5D282B9ACA00F794BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P9D5WS2AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.scholzf.iMensa.WatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Watch;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
 		8ADB44F82821469C00E29425 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -679,6 +1210,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A454B50282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454B51282B9ACA00F794BB /* Debug */,
+				8A454B52282B9ACA00F794BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A454B54282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454B55282B9ACA00F794BB /* Debug */,
+				8A454B56282B9ACA00F794BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A454B58282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454B59282B9ACA00F794BB /* Debug */,
+				8A454B5A282B9ACA00F794BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A454B5B282B9ACA00F794BB /* Build configuration list for PBXNativeTarget "WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A454B5C282B9ACA00F794BB /* Debug */,
+				8A454B5D282B9ACA00F794BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8ADB44C82821469A00E29425 /* Build configuration list for PBXProject "iMensa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
